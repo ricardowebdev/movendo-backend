@@ -12,14 +12,16 @@
     },
     "config": {
         "commitizen": {
-          "path": "@commitlint/prompt"
+            "path": "@commitlint/prompt"
         }
     },
     "devDependencies": {
+        "@commitlint/cli": "^16.1.0",
         "@commitlint/config-conventional": "^16.0.0",
         "@commitlint/prompt": "^16.1.0",
         "axios": "^0.21",
         "commitizen": "^4.2.4",
+        "husky": "^7.0.4",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14"
