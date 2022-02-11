@@ -7,10 +7,19 @@
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
         "prod": "npm run production",
-        "production": "mix --production"
+        "production": "mix --production",
+        "commit": "git-cz"
+    },
+    "config": {
+        "commitizen": {
+          "path": "@commitlint/prompt"
+        }
     },
     "devDependencies": {
+        "@commitlint/config-conventional": "^16.0.0",
+        "@commitlint/prompt": "^16.1.0",
         "axios": "^0.21",
+        "commitizen": "^4.2.4",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14"

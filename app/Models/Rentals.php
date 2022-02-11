@@ -25,7 +25,7 @@ class Rentals extends Model
     ];
 
     protected $casts = [
-        'created_at' => 'datetime:Y-m-d h:i:s',
+        'created_at' => 'datetime:m/d',
     ];
 
     public function user()
